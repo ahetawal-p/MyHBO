@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyHBO</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Movie search</string>
+
+    <string name="omdbapi_url">http://www.omdbapi.com/?s=%1$s&amp;page=%2$d&amp;type=movie&amp;r=json</string>
+
+    <string name="omdbapi_detail_url">http://www.omdbapi.com/?i=%1$s&amp;r=json&amp;plot=full</string>
+    <string name="errorMsg">Error :(</string>
+
+
+
+</resources>
