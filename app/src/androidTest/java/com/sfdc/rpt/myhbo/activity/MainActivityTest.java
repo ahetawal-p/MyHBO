@@ -66,8 +66,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
      * Integration test with OMDB api, when an invalid search is performed from the searchview.<br/>
      * 1. Click the search icon on search view<br/>
      * 2. Type incorrect search text ex. "ssdfs" and press search button on keyboard<br/>
-     * 3. Verify "NO Results found" text is NOT displayed<br/>
-     * 4. Verify Search List recyclerview IS displayed.
+     * 3. Verify "NO Results found" text IS displayed<br/>
+     * 4. Verify Search List recyclerview NOT displayed.
      */
     @Test
     @LargeTest
